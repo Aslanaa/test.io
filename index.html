@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Welcom to KZ</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="row">
+		<div class="header"> <!-- ШАПКА САЙТА --> 
+			<img class="logo" src="img/1.png" alt="Logo">	
+			<img id="btn_img" class="burger" src="img/footer/burger.png" alt="">
+				<nav class="info"> <!-- НАВИГАЦИЯ -->
+	
+					<a href="#glavnoe">О нас</a>
+	
+					<a href="#dost__kz">Достопримечательности</a>
+	
+					<a href="#maps__glav__ekr">мы на карте</a>
+	
+					<a href="#otzyv">отзывы</a>
+						
+					
+				</nav>
+			<div class="dropdown"> <!-- ПОПАП МЕНЮ -->
+				<button onclick="myFunction()" class="dropbtn">≡</button>
+  			<div id="myDropdown" class="dropdown-content">
+    			<a href="#glavnoe">О нас</a>
+   				<a href="#dost__kz">Достопримечательности</a>
+    			<a href="#maps__glav__ekr">Мы на карте</a>
+    			<a href="#otzyv">Отзывы</a>
+		  	</div>
+			</div>
+		</div>
+		
+		<div class="content"> <!-- КОНТЕНТ БЛОК 1 -->
+			<div class="in__content">
+				<div class="content__photo">
+					<div id="glavnoe">
+						<h1>Главное в казахстане</h1>
+					</div>
+					<h2>Казахстан расположен в сердце евразийского континента. Его территория составляет 2 724 900 кв. км (1 049 150 кв. миль). Это – вторая в СНГ и девятая в мире по величине страна. По своей территории Казахстан крупнее, чем двенадцать стран Европейского союза! Граничит Казахстан с Китаем, Кыргызстаном, Туркменией, Узбекистаном и Россией. Общая протяженность границ – 12187 км.</h2>
+					<div class="photo">
+						<img src="img/5.jpg" alt="Photo">
+						<img src="img/6.jpg" alt="Photo">
+					</div>
+
+					<p>
+						достопримечательности города
+						Казахстан, это очень много красивый и новых зданий,основанных на реальных событиях,dasd 
+					</p>
+				</div>	
+			</div>
+			<div class="mer"> <!-- ДОСТ. БЛОК 2 -->
+				<h3 id="dost__kz">Достопримечательности</h3>
+				<div class="izum">
+					<img id="img__slider" class="img__slid">
+				</div>
+				<div class="button__cl">
+					<button id="left__bt"><</button>
+					<button id="right__bt">></button>
+				</div>
+				<div class="photo__izum">
+					<p>Изумрудный квартал Астаны — средоточие достопримечательностей, деловой и светской жизни Астаны. В 2006 г. здесь стартовало строительство комплекса «Изумрудный квартал» по концепции архитектора Роя Варакалли, 5 лет спустя сдана в эксплуатацию 53-этажная башня «А», самое высокое строение Казахстана. Ныне закончено возведение 40-этажной башни «В». Основное назначение сооружений — создание комфортного офисного пространства для казахстанского и зарубежного бизнеса.</p>
+				</div>
+				<div class="fi4a">
+					<p> 	
+					&#10077; Архитектурное решение комплекса весьма необычно: начиная с 32-го этажа, каждый следующий чуть-чуть шире предыдущего. Сплошное стекло на фасадах зеленоватого оттенка, благодаря которому здание издалека действительно напоминает изумрудный кристалл. Эффект необыкновенно усиливается вечерним освещением.&#10078;</p>
+				</div>					
+			</div>
+			
+		<div id="maps__glav__ekr"> <!-- БЛОК 3 КАРТА -->
+			<h3>Карта</h3>
+			<div class="maps_glav">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d814.7302189006389!2d78.35034161169692!3d45.010406146733054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x427efe188716983d%3A0x524737ce9fd39848!2z0J_QvtC70LjRgtC10YXQvdC40YfQtdGB0LrQuNC5INC60L7Qu9C70LXQtNC2!5e0!3m2!1sru!2skz!4v1590758213689!5m2!1sru!2skz" width="80%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				<div class="btn__maps">
+					<a href="https://www.google.com/maps?ll=45.010861,78.350821&z=18&t=m&hl=ru&gl=KZ&mapclient=embed&daddr=%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%B4%D0%B6+%D1%83%D0%BB.+%D0%96%D0%B0%D0%BD%D1%81%D1%83%D0%B3%D1%83%D1%80%D0%BE%D0%B2%D0%B0+226+%D0%A2%D0%B0%D0%BB%D0%B4%D1%8B%D0%BA%D0%BE%D1%80%D0%B3%D0%B0%D0%BD+040006@45.010861,78.35082109999999" target="_blank">Указать местоположение</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="otzyv"> <!-- ОТЗЫВЫ БЛОК 4 -->
+			<h3>Отзывы</h3>
+			<div class="gg_bl">
+				<div class="ava1">
+					<img src="img/ava1.png" alt="">
+				<div class="name1">
+					<p>Айсулу Мекентаевна</p>
+					<div class="name__comm1"><span class="comm1">&#10077; Съездила в Астану, очень красиво, прекрасный вид!&#10078;</span>
+					</div>
+					
+				</div>
+				</div>
+				<div class="ava2">
+					<img src="img/ava2.png" alt="">
+					<div class="name1">
+					<p>Аслан Дуз-оглы</p>
+					<div class="name__comm2"><span class="comm1">&#10077; Часто езжаю в вашу страну, такая красота, нравится аболютно все.&#10078;</span>
+					</div>
+					
+				</div>
+				</div>
+					<div class="ava3">
+					<img src="img/ava3.png" alt="">
+				<div class="name1">
+					<p>Айдана Мелисова</p>
+					<div class="name__comm3"><span class="comm1">&#10077; Спасибо за такой чудесный и удобный сайт.&#10078;</span>
+					</div>
+					
+				</div>
+				</div>	
+					<div class="ava4">
+					<img src="img/ava4.png" alt="">
+				<div class="name1">
+					<p>Мэлор Смирнов</p>
+					<div class="name__comm4"><span class="comm1">&#10077; Очень крутой стильный а главное удобный адаптивный сайт!&#10078;</span>
+					</div>
+					
+				</div>
+				</div>	
+
+			</div>
+		</div>	
+			
+		</div> 
+		<div class="reklama"> <!-- РЕКЛАМА БЛОК -->
+			<div class="in__reklama">
+				<div class="in__rek1">
+					<div class="rek1">
+						<p>ads</p>
+					</div>
+					<div class="rek2">
+						<p>ads</p>
+					</div>
+				</div>
+				<div class="in__rek2">	
+					<div class="rek3">
+						<p>ads</p>
+					</div>
+					<div class="rek4">
+						<p>ads</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		</div>
+			<div class="footer"> <!-- ФУТЕР САЙТА -->
+				<div class="in__footer">
+					<div class="prav">
+						<p>Copyright © 2001 — 2020 Advantour
+					Все права защищены
+					</p>
+					</div>
+						<div class="soc">
+							<a href="https://www.youtube.com/channel/UCo3-4qF9uNj36srkQlO7cwQ?view_as=subscriber" target="_blank"><img class="icon1" src="img/footer/google.png" alt="">
+							</a>
+							<a href="https://www.instagram.com/_estetics__/" target="_blank"><img class="icon1" src="img/footer/inst.png" alt="">
+							</a>
+							<a href="https://twitter.com/Aslan99543377" target="_blank"><img class="icon1" src="img/footer/t.png" alt="">
+							</a>
+							<a href="https://vk.com/aslan.volk?z=photo325554293_456244163%2Fphotos325554293" target="_blank"><img class="icon1" src="img/footer/you.png" alt="">	
+							</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		
+		</div>
+	</div>
+		<script src="script.js"></script>	 <!-- подключение жс  -->
+</body>
+</html>
